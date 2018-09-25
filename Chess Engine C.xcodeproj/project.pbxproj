@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		31C2A76E2159C6DD0005F5DC /* Chess Engine C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Chess Engine C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31C2A7712159C6DD0005F5DC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		31C2A7782159C9EF0005F5DC /* defs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = defs.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				31C2A7712159C6DD0005F5DC /* main.c */,
+				31C2A7782159C9EF0005F5DC /* defs.h */,
 			);
 			path = "Chess Engine C";
 			sourceTree = "<group>";
