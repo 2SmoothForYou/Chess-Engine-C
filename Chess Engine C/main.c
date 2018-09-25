@@ -13,6 +13,16 @@ int main(int argc, const char * argv[]) {
     
     AllInit();
     
+    U64 playBitBoard = 0ULL;
+    
+    printf("Start:\n");
+    PrintBitBoard(playBitBoard);
+    
+    playBitBoard |= (1ULL << SQ64(D2));
+    
+    printf("D2 Added:\n");
+    PrintBitBoard(playBitBoard);
+    
     return 0;
     
 }
