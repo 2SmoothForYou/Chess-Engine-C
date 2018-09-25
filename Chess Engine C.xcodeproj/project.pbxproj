@@ -10,6 +10,7 @@
 		31C2A7722159C6DD0005F5DC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 31C2A7712159C6DD0005F5DC /* main.c */; };
 		31C2A77A2159D4450005F5DC /* init.c in Sources */ = {isa = PBXBuildFile; fileRef = 31C2A7792159D4450005F5DC /* init.c */; };
 		31C2A77C2159DC130005F5DC /* bitboards.c in Sources */ = {isa = PBXBuildFile; fileRef = 31C2A77B2159DC130005F5DC /* bitboards.c */; };
+		31C2A77E215A8B270005F5DC /* hashkeys.c in Sources */ = {isa = PBXBuildFile; fileRef = 31C2A77D215A8B270005F5DC /* hashkeys.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,7 @@
 		31C2A7782159C9EF0005F5DC /* defs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = defs.h; sourceTree = "<group>"; };
 		31C2A7792159D4450005F5DC /* init.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = init.c; sourceTree = "<group>"; };
 		31C2A77B2159DC130005F5DC /* bitboards.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bitboards.c; sourceTree = "<group>"; };
+		31C2A77D215A8B270005F5DC /* hashkeys.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hashkeys.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				31C2A7782159C9EF0005F5DC /* defs.h */,
 				31C2A7792159D4450005F5DC /* init.c */,
 				31C2A77B2159DC130005F5DC /* bitboards.c */,
+				31C2A77D215A8B270005F5DC /* hashkeys.c */,
 			);
 			path = "Chess Engine C";
 			sourceTree = "<group>";
@@ -129,6 +132,7 @@
 				31C2A77C2159DC130005F5DC /* bitboards.c in Sources */,
 				31C2A7722159C6DD0005F5DC /* main.c in Sources */,
 				31C2A77A2159D4450005F5DC /* init.c in Sources */,
+				31C2A77E215A8B270005F5DC /* hashkeys.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
