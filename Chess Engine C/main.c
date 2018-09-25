@@ -13,6 +13,8 @@ int main(int argc, const char * argv[]) {
     
     AllInit();
     
+    int index = 0;
+    
     U64 playBitBoard = 0ULL;
     
     return 0;
